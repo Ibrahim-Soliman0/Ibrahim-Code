@@ -1,15 +1,19 @@
 {
   "folders": [
     {
+      "name": "Code",
       "path": "."
     },
     {
+      "name": "php-lecture",
       "path": "C:/xampp/htdocs/php-lecture"
     },
     {
+      "name": "Exam",
       "path": "../Exam"
     },
     {
+      "name": "php-crash",
       "path": "C:/xampp/htdocs/php-crash"
     }
   ],

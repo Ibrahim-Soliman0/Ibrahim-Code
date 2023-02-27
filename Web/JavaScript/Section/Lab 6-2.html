@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <script lang="javascript">
+      function calc() {
+          n = parseInt(document.calcform.enter.value);
+          document.calcform.result.value = Math.sqrt(n);
+      }
+    </script>
+    <form name="calcform">
+      <label>Enter a number: </label>
+      <input type="text" name="enter" /><br /><br />
+      <input
+        type="button"
+        value="Calculate Square Root"
+        onclick="calc()"
+      /><br /><br />
+      <label> Result: </label>
+      <input type="text" name="result" />
+    </form>
+  </body>
+</html>

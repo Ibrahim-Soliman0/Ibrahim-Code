@@ -15,25 +15,16 @@ public class Lab1 {
         arr[4][3] = true;
         System.out.println(count(arr));
     }
+
     public static int count(boolean a[][]) {
         int counter = 0;
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
-                if(a[i][j] == true){
+                if (a[i][j]) {
                     counter++;
-                }   
+                }
             }
         }
-        return counter;
-    }
-    public static boolean checkFriends(boolean a[][]) {
-        if () {
-
-            return false;   
-        }
-        else if () {
-
-            return true;
-        }
+        return counter / 2;
     }
 }
